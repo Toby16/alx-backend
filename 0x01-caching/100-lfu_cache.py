@@ -46,6 +46,13 @@ class LFUCache(BaseCaching):
                 self.frequency[key] = 1
 
     def get(self, key):
+        """
+        A method to return the value
+        in 'self.cache_data' linked to a key
+
+        Args:
+            key - The key for an item in 'self.cache_data'
+        """
         if (key is None) or (key not in self.cache_data):
             return None
         else:
