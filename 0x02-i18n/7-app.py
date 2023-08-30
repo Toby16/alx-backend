@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
- Display the current time
+Infer appropriate time zone
 """
 import pytz
 
